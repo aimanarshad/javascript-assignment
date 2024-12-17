@@ -1,0 +1,122 @@
+
+      /* Basic Styling */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      /* Navbar Styling */
+      .navbar {
+        display: flex;
+        /* align-items: center;
+        justify-content: center; */
+        padding: 10px 0;
+        gap: 20px;
+        background-color: #4ea0cc;
+        color: rgb(7, 7, 7);
+      }
+      .navbar .logo {
+        text-align: center;
+        font-size: 24px;
+        margin-right: 10px;
+      }
+      .navbar .logo .pana {
+        color: white;
+        font-weight: bold;
+        display: block;
+      }
+      .navbar .logo .cloud {
+        color: black;
+        font-weight: bold;
+        display: block;
+      }
+      .navbar ul {
+        list-style-type: none;
+        padding: 0;
+        display: flex;
+        gap: 2rem;
+        
+      }
+      .navbar ul a {
+        font-size: 18px;
+        text-transform: uppercase;
+       justify-items: center;
+       color: black;
+       text-decoration: none;
+       display: flex;
+       justify-content: space-evenly;
+      }
+
+      /* Main Section Styling */
+      .main {
+        padding: 2rem;
+        display: flex;
+        gap: 1.5rem;
+      }
+      .main .content {
+        flex: 3;
+      }
+      .main .profile-image {
+        
+       
+        border: 1px solid #ccc;
+        text-align: center;
+        background-color: #4ea0cc;
+        padding: 1rem;
+        font-weight: bold;
+        height: 170px;
+        width: 300px;
+        border-radius: 10%;
+      }
+      .profile-image h1{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        
+      }
+      .main .full-width-box {
+        width: 85vw;
+        height: 50vh;
+        background-color:#4ea0cc;
+        border-radius: 15%;
+        
+      }
+      img{
+        height: 60px;
+        width: 70px;
+        
+      }
+      
+
+      /* Footer Styling */
+      footer {
+        text-align: center;
+        padding: 1rem;
+        background-color: #4ea0cc;
+        color: rgb(7, 7, 7);
+      }
+  .home-image{
+    margin-left: 70px;
+    width: 80vw;
+    height :50vh;
+  }
+  #home p{
+    font-size: larger;
+    align-items: center;
+    text-align: center;
+    
+  }
+  .p{
+    display: flex ;
+    justify-content: space-evenly;
+    font-size: large;
+  }
+  .p img{
+    height: 250px;
+    width: 250px;
+  }
+  #contact img{
+    height: 400px;
+    width: 80vw;
+  }
